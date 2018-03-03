@@ -50,7 +50,7 @@
        (256color (eq (display-color-cells (selected-frame)) 256))
 
        (background (if 256color "#1c1c1c" "#161528"))
-       (current-line (if 256color "#121212" "#131126"))
+       (current-line (if 256color "#161616" "#131126"))
        (block-background (if 256color "#262626" "#1F2232"))
        ;;;(selection "#aa2240")
        (selection "#303030")
@@ -560,6 +560,7 @@
    ;; stripe-buffer
    `(stripe-highlight ((,class (:background ,current-line))))
    `(stripe-hl-line ((,class (:background ,selection :foreground ,foreground))))
+   `(hl-line ((,class (:background  ,current-line))))
 
    ;; erc
    `(erc-direct-msg-face ((,class (:foreground ,orange))))
