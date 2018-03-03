@@ -66,7 +66,7 @@
        (aqua "#1a8042")
        (blue "#6f74c3")
        (purple "#c3a4d0")
-       (li-no  "#292837")
+       (li-no  "#373745")
        )
 
   (custom-theme-set-faces
