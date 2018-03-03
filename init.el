@@ -34,3 +34,4 @@
   (unless (server-running-p) (server-start)))
 (global-set-key [mouse-4] 'scroll-down-line)
 (global-set-key [mouse-5] 'scroll-up-line)
+
