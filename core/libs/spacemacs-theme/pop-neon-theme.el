@@ -79,7 +79,7 @@
    `(font-lock-builtin-face ((,class (:foreground "#ff9999"))))
    `(font-lock-comment-delimiter-face ((,class (:foreground ,comment))))
    `(font-lock-comment-face ((,class (:foreground ,comment))))
-   `(font-lock-constant-face ((,class (:foreground ,green))))
+   `(font-lock-constant-face ((,class (:foreground ,orange))))
    `(font-lock-doc-face ((,class (:foreground "moccasin"))))
    `(font-lock-doc-string-face ((,class (:foreground ,yellow))))
    `(font-lock-function-name-face ((,class (:foreground ,magenta))))
